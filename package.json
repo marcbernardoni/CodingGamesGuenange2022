@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-setup",
+  "version": "1.0.0",
+  "description": "Paramètres initiaux que chacun de mes projets JavaScript doit avoir avant d'écrire la moindre ligne de code.",
+  "keywords": [
+    "nodejs",
+    "npm",
+    "eslint",
+    "prettier",
+    "husky"
+  ],
+  "author": {
+    "name": "Marc Bernardoni",
+    "email": "marc.bernardoni@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jsdom": "^20.0.2",
+    "prettier": "2.7.1"
+  }
+}
