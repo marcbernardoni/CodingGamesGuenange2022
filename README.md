@@ -17,14 +17,33 @@ Ce projet permet de passer à la vitesse supérieur notamment grâce à l'utilis
 
 ## Installation du projet
 
-Voici comment installer rapidement ce projet :
+### Légende : 
+- nomRepo : Le nom du dépôt github
+- yourFolder : Le nom du dossier sur votre ordinateur
 
+### Opérations:
+
+Voici comment installer rapidement ce projet :
+Créer un nouveau Dépôt github :
 ```
-git clone https://github.com/marcbernardoni/nodejs-setup.git yourFolder
+gh repo create nomRepo --public
+```
+
+Puis choisir l'option *importer depuis un dépot existant*. Dans le champ demandant l'url du dépôt enrez :
+**https://github.com/marcbernardoni/nodejs-setup.git**
+
+Enfin entrez les commandes suivantes:
+```
+git clone https://github.com/marcbernardoni/nomRepo.git yourFolder
 cd yourFolder
 npm install
-
 ```
+
+Pour changer le nom du Repository, créer un nouveau dépôt git :
+```
+gh repo create nomRepo --public
+```
+
 
 ## Instructions
 
